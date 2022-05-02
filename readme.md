@@ -12,4 +12,4 @@ Easy to use discord bot that lets users count their badges from a discord server
 * Change the directory into the folder with `cd badge-discord-bot`
 * Type in `pip install -r requirements.txt` to install all the needed packages
 * Type in `cp .env.example .env` and edit the `.env` file to suit your needs
-* Start the server with `python main.py`
+* Start the bot with `python main.py`
