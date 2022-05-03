@@ -160,7 +160,7 @@ class BadgeTracker(commands.Cog):
             title="User Info",
             description=(f"{username}'s info\n"
                           "\n"
-                         f"#{leaderboard_rank} on SBC leaderboards with {progress['count']} badges {'(Still counting!)' if progress['quickcounting'] or progress['counting'] else ''}\n"
+                         f"#{leaderboard_rank} on SBC leaderboards with {progress['count']} badges {'(Still counting!)' if progress['quick_counting'] else ('(Recounting!)' if progress['counting'] else '')}\n"
                          f"First badge: [{first_badge['name']}](https://roblox.com/badges/{first_badge['id']})\n"
                          f"Last badge: [{last_badge['name']}](https://roblox.com/badges/{last_badge['id']})"),
             color=ctx.author.color))
